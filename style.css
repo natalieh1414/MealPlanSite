@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    color: white;
+}
+
+.header-content img {
+    height: 80px;
+    margin-right: 15px;
+}
+
+nav a.nav-link {
+    color: #333;
+}
+
+nav a.nav-link:hover {
+    color: #4CAF50;
+}
+
+
+@media (max-width: 767px) {
+    main, aside {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        flex: 70%;
+    }
+    aside {
+        flex: 30%;
+    }
+}
